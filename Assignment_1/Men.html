@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page 4</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/94eef430b8.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+</head>
+
+<body>
+
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div class="logos">
+                <img src="Pics/logo.png" alt="Logo" class="nav__logo" style="max-height: 140px; max-width: 70px;">
+                <div>
+                    <a href="#" class="nav__logo">Shopers</a>
+                </div>
+            </div>
+
+            <div class="nav__bars">
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="index.html" class="nav__link active-link"><i class="fa-solid fa-home"></i></a></li>
+                        <li class="nav__item"><a href="Men.html" class="nav__link">Men</a></li>
+                        <li class="nav__item"><a href="Women.html" class="nav__link">Women</a></li>
+                        <li class="nav__item"><a href="Shoes.html" class="nav__link">Shoes</a></li>
+                        <li class="nav__item"><a href="Watches.html" class="nav__link">Watches</a></li>
+                    </ul>
+                </div>
+                <div class="cart-icon">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span id="cart-count">0</span>
+                </div>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <div class="Boxer">
+            <br>
+            <h1 class="section__heading">Men</h1>
+
+            <div class="product-grid">
+                <!-- Repeat this block for 20 products -->
+                <div class="product-card" data-id="21">
+                    <img src="Pics/products/Men1.jpg" alt="Product 21">
+                    <div class="product-info">
+                        <h2 class="product-name">Classic Suit</h2>
+                        <p class="product-price">₹ 5000</p>
+                        <div class="product-details">
+                            <p class="product-description">Classic Suit for formal occasions.</p>
+                            <button class="button add-to-cart">
+                                <span>Add to cart</span>
+                                <div class="cart">
+                                    <svg viewBox="0 0 36 26">
+                                        <polyline points="1 2.5 6 2.5 10 18.5 25.5 18.5 28.5 7.5 7.5 7.5"></polyline>
+                                        <polyline points="15 13.5 17 15.5 22 10.5"></polyline>
+                                    </svg>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-id="22">
+                    <img src="Pics/products/Men2.jpg" alt="Product 22">
+                    <div class="product-info">
+                        <h2 class="product-name">Casual Blazer</h2>
+                        <p class="product-price">₹ 3500</p>
+                        <div class="product-details">
+                            <p class="product-description">Casual Blazer for everyday wear.</p>
+                            <button class="button add-to-cart">
+                                <span>Add to cart</span>
+                                <div class="cart">
+                                    <svg viewBox="0 0 36 26">
+                                        <polyline points="1 2.5 6 2.5 10 18.5 25.5 18.5 28.5 7.5 7.5 7.5"></polyline>
+                                        <polyline points="15 13.5 17 15.5 22 10.5"></polyline>
+                                    </svg>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-id="23">
+                    <img src="Pics/products/Men3.jpg" alt="Product 23">
+                    <div class="product-info">
+                        <h2 class="product-name">Formal Shirt</h2>
+                        <p class="product-price">₹ 1200</p>
+                        <div class="product-details">
+                            <p class="product-description">Elegant Formal Shirt for office wear.</p>
+                            <button class="button add-to-cart">
+                                <span>Add to cart</span>
+                                <div class="cart">
+                                    <svg viewBox="0 0 36 26">
+                                        <polyline points="1 2.5 6 2.5 10 18.5 25.5 18.5 28.5 7.5 7.5 7.5"></polyline>
+                                        <polyline points="15 13.5 17 15.5 22 10.5"></polyline>
+                                    </svg>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-id="24">
+                    <img src="Pics/products/Men4.jpg" alt="Product 24">
+                    <div class="product-info">
+                        <h2 class="product-name">Slim Fit Trousers</h2>
+                        <p class="product-price">₹ 2000</p>
+                        <div class="product-details">
+                            <p class="product-description">Slim Fit Trousers for a sleek look.</p>
+                            <button class="button add-to-cart">
+                                <span>Add to cart</span>
+                                <div class="cart">
+                                    <svg viewBox="0 0 36 26">
+                                        <polyline points="1 2.5 6 2.5 10 18.5 25.5 18.5 28.5 7.5 7.5 7.5"></polyline>
+                                        <polyline points="15 13.5 17 15.5 22 10.5"></polyline>
+                                    </svg>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-id="25">
+                    <img src="Pics/products/Men5.jpg" alt="Product 25">
+                    <div class="product-info">
+                        <h2 class="product-name">Leather Jacket</h2>
+                        <p class="product-price">₹ 4000</p>
+                        <div class="product-details">
+                            <p class="product-description">Stylish Leather Jacket for men.</p>
+                            <button class="button add-to-cart">
+                                <span>Add to cart</span>
+                                <div class="cart">
+                                    <svg viewBox="0 0 36 26">
+                                        <polyline points="1 2.5 6 2.5 10 18.5 25.5 18.5 28.5 7.5 7.5 7.5"></polyline>
+                                        <polyline points="15 13.5 17 15.5 22 10.5"></polyline>
+                                    </svg>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-id="26">
+                    <img src="Pics/products/Men6.jpg" alt="Product 26">
+                    <div class="product-info">
+                        <h2 class="product-name">Chinos Pants</h2>
+                        <p class="product-price">₹ 1700</p>
+                        <div class="product-details">
+                            <p class="product-description">Comfortable Chinos Pants for casual outings.</p>
+                            <button class="button add-to-cart">
+                                <span>Add to cart</span>
+                                <div class="cart">
+                                    <svg viewBox="0 0 36 26">
+                                        <polyline points="1 2.5 6 2.5 10 18.5 25.5 18.5 28.5 7.5 7.5 7.5"></polyline>
+                                        <polyline points="15 13.5 17 15.5 22 10.5"></polyline>
+                                    </svg>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-id="27">
+                    <img src="Pics/products/Men7.jpg" alt="Product 27">
+                    <div class="product-info">
+                        <h2 class="product-name">Denim Jacket</h2>
+                        <p class="product-price">₹ 2900</p>
+                        <div class="product-details">
+                            <p class="product-description">Trendy Denim Jacket for men.</p>
+                            <button class="button add-to-cart">
+                                <span>Add to cart</span>
+                                <div class="cart">
+                                    <svg viewBox="0 0 36 26">
+                                        <polyline points="1 2.5 6 2.5 10 18.5 25.5 18.5 28.5 7.5 7.5 7.5"></polyline>
+                                        <polyline points="15 13.5 17 15.5 22 10.5"></polyline>
+                                    </svg>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-id="28">
+                    <img src="Pics/products/Men8.jpg" alt="Product 28">
+                    <div class="product-info">
+                        <h2 class="product-name">Woolen Coat</h2>
+                        <p class="product-price">₹ 6000</p>
+                        <div class="product-details">
+                            <p class="product-description">Warm Woolen Coat for winter season.</p>
+                            <button class="button add-to-cart">
+                                <span>Add to cart</span>
+                                <div class="cart">
+                                    <svg viewBox="0 0 36 26">
+                                        <polyline points="1 2.5 6 2.5 10 18.5 25.5 18.5 28.5 7.5 7.5 7.5"></polyline>
+                                        <polyline points="15 13.5 17 15.5 22 10.5"></polyline>
+                                    </svg>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-id="29">
+                    <img src="Pics/products/Men9.jpg" alt="Product 29">
+                    <div class="product-info">
+                        <h2 class="product-name">Polo Shirt</h2>
+                        <p class="product-price">₹ 1500</p>
+                        <div class="product-details">
+                            <p class="product-description">Stylish Polo Shirt for casual wear.</p>
+                            <button class="button add-to-cart">
+                                <span>Add to cart</span>
+                                <div class="cart">
+                                    <svg viewBox="0 0 36 26">
+                                        <polyline points="1 2.5 6 2.5 10 18.5 25.5 18.5 28.5 7.5 7.5 7.5"></polyline>
+                                        <polyline points="15 13.5 17 15.5 22 10.5"></polyline>
+                                    </svg>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-id="30">
+                    <img src="Pics/products/Men10.jpg" alt="Product 30">
+                    <div class="product-info">
+                        <h2 class="product-name">Formal Trousers</h2>
+                        <p class="product-price">₹ 1800</p>
+                        <div class="product-details">
+                            <p class="product-description">Formal Trousers for business meetings.</p>
+                            <button class="button add-to-cart">
+                                <span>Add to cart</span>
+                                <div class="cart">
+                                    <svg viewBox="0 0 36 26">
+                                        <polyline points="1 2.5 6 2.5 10 18.5 25.5 18.5 28.5 7.5 7.5 7.5"></polyline>
+                                        <polyline points="15 13.5 17 15.5 22 10.5"></polyline>
+                                    </svg>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-id="31">
+                    <img src="Pics/products/Men11.jpg" alt="Product 31">
+                    <div class="product-info">
+                        <h2 class="product-name">V-Neck Sweater</h2>
+                        <p class="product-price">₹ 2200</p>
+                        <div class="product-details">
+                            <p class="product-description">Cozy V-Neck Sweater for cool evenings.</p>
+                            <button class="button add-to-cart">
+                                <span>Add to cart</span>
+                                <div class="cart">
+                                    <svg viewBox="0 0 36 26">
+                                        <polyline points="1 2.5 6 2.5 10 18.5 25.5 18.5 28.5 7.5 7.5 7.5"></polyline>
+                                        <polyline points="15 13.5 17 15.5 22 10.5"></polyline>
+                                    </svg>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-id="32">
+                    <img src="Pics/products/Men12.jpg" alt="Product 32">
+                    <div class="product-info">
+                        <h2 class="product-name">Cargo Pants</h2>
+                        <p class="product-price">₹ 1600</p>
+                        <div class="product-details">
+                            <p class="product-description">Durable Cargo Pants for outdoor activities.</p>
+                            <button class="button add-to-cart">
+                                <span>Add to cart</span>
+                                <div class="cart">
+                                    <svg viewBox="0 0 36 26">
+                                        <polyline points="1 2.5 6 2.5 10 18.5 25.5 18.5 28.5 7.5 7.5 7.5"></polyline>
+                                        <polyline points="15 13.5 17 15.5 22 10.5"></polyline>
+                                    </svg>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-id="33">
+                    <img src="Pics/products/Men13.jpg" alt="Product 33">
+                    <div class="product-info">
+                        <h2 class="product-name">Hooded Sweatshirt</h2>
+                        <p class="product-price">₹ 2500</p>
+                        <div class="product-details">
+                            <p class="product-description">Comfortable Hooded Sweatshirt for casual wear.</p>
+                            <button class="button add-to-cart">
+                                <span>Add to cart</span>
+                                <div class="cart">
+                                    <svg viewBox="0 0 36 26">
+                                        <polyline points="1 2.5 6 2.5 10 18.5 25.5 18.5 28.5 7.5 7.5 7.5"></polyline>
+                                        <polyline points="15 13.5 17 15.5 22 10.5"></polyline>
+                                    </svg>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-id="34">
+                    <img src="Pics/products/Men14.jpg" alt="Product 34">
+                    <div class="product-info">
+                        <h2 class="product-name">Track Jacket</h2>
+                        <p class="product-price">₹ 2800</p>
+                        <div class="product-details">
+                            <p class="product-description">Lightweight Track Jacket for workouts.</p>
+                            <button class="button add-to-cart">
+                                <span>Add to cart</span>
+                                <div class="cart">
+                                    <svg viewBox="0 0 36 26">
+                                        <polyline points="1 2.5 6 2.5 10 18.5 25.5 18.5 28.5 7.5 7.5 7.5"></polyline>
+                                        <polyline points="15 13.5 17 15.5 22 10.5"></polyline>
+                                    </svg>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-id="35">
+                    <img src="Pics/products/Men15.jpg" alt="Product 35">
+                    <div class="product-info">
+                        <h2 class="product-name">Short Sleeve Shirt</h2>
+                        <p class="product-price">₹ 1400</p>
+                        <div class="product-details">
+                            <p class="product-description">Casual Short Sleeve Shirt for summer.</p>
+                            <button class="button add-to-cart">
+                                <span>Add to cart</span>
+                                <div class="cart">
+                                    <svg viewBox="0 0 36 26">
+                                        <polyline points="1 2.5 6 2.5 10 18.5 25.5 18.5 28.5 7.5 7.5 7.5"></polyline>
+                                        <polyline points="15 13.5 17 15.5 22 10.5"></polyline>
+                                    </svg>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-id="36">
+                    <img src="Pics/products/Men16.jpg" alt="Product 36">
+                    <div class="product-info">
+                        <h2 class="product-name">Business Suit</h2>
+                        <p class="product-price">₹ 5500</p>
+                        <div class="product-details">
+                            <p class="product-description">Professional Business Suit for formal events.</p>
+                            <button class="button add-to-cart">
+                                <span>Add to cart</span>
+                                <div class="cart">
+                                    <svg viewBox="0 0 36 26">
+                                        <polyline points="1 2.5 6 2.5 10 18.5 25.5 18.5 28.5 7.5 7.5 7.5"></polyline>
+                                        <polyline points="15 13.5 17 15.5 22 10.5"></polyline>
+                                    </svg>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-id="37">
+                    <img src="Pics/products/Men17.jpg" alt="Product 37">
+                    <div class="product-info">
+                        <h2 class="product-name">Sweater Vest</h2>
+                        <p class="product-price">₹ 1700</p>
+                        <div class="product-details">
+                            <p class="product-description">Sweater Vest for a layered look.</p>
+                            <button class="button add-to-cart">
+                                <span>Add to cart</span>
+                                <div class="cart">
+                                    <svg viewBox="0 0 36 26">
+                                        <polyline points="1 2.5 6 2.5 10 18.5 25.5 18.5 28.5 7.5 7.5 7.5"></polyline>
+                                        <polyline points="15 13.5 17 15.5 22 10.5"></polyline>
+                                    </svg>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-id="38">
+                    <img src="Pics/products/Men18.jpg" alt="Product 38">
+                    <div class="product-info">
+                        <h2 class="product-name">Winter Coat</h2>
+                        <p class="product-price">₹ 3200</p>
+                        <div class="product-details">
+                            <p class="product-description">Warm Winter Coat for cold weather.</p>
+                            <button class="button add-to-cart">
+                                <span>Add to cart</span>
+                                <div class="cart">
+                                    <svg viewBox="0 0 36 26">
+                                        <polyline points="1 2.5 6 2.5 10 18.5 25.5 18.5 28.5 7.5 7.5 7.5"></polyline>
+                                        <polyline points="15 13.5 17 15.5 22 10.5"></polyline>
+                                    </svg>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-id="39">
+                    <img src="Pics/products/Men19.jpg" alt="Product 39">
+                    <div class="product-info">
+                        <h2 class="product-name">Casual Blazer</h2>
+                        <p class="product-price">₹ 2900</p>
+                        <div class="product-details">
+                            <p class="product-description">Stylish Casual Blazer for a smart look.</p>
+                            <button class="button add-to-cart">
+                                <span>Add to cart</span>
+                                <div class="cart">
+                                    <svg viewBox="0 0 36 26">
+                                        <polyline points="1 2.5 6 2.5 10 18.5 25.5 18.5 28.5 7.5 7.5 7.5"></polyline>
+                                        <polyline points="15 13.5 17 15.5 22 10.5"></polyline>
+                                    </svg>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-id="40">
+                    <img src="Pics/products/Men20.jpg" alt="Product 40">
+                    <div class="product-info">
+                        <h2 class="product-name">Lightweight Jacket</h2>
+                        <p class="product-price">₹ 2000</p>
+                        <div class="product-details">
+                            <p class="product-description">Lightweight Jacket for mild weather.</p>
+                            <button class="button add-to-cart">
+                                <span>Add to cart</span>
+                                <div class="cart">
+                                    <svg viewBox="0 0 36 26">
+                                        <polyline points="1 2.5 6 2.5 10 18.5 25.5 18.5 28.5 7.5 7.5 7.5"></polyline>
+                                        <polyline points="15 13.5 17 15.5 22 10.5"></polyline>
+                                    </svg>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+            <div id="cart-modal" class="cart-modal">
+                <div class="cart-content">
+                    <h2>Cart</h2>
+                    <ul id="cart-items"></ul>
+                    <div class="cart-total">
+                        <p>Total: ₹<span id="cart-total-value">0.00</span></p>
+                        <button id="checkout">Checkout</button>
+                    </div>
+                    <button id="close-cart">Close</button>
+                </div>
+            </div>
+
+
+
+            <section id="reviews-section" class="product-reviews">
+                <h1 class="section__heading">Customer Reviews</h1>
+                <div class="review-grid" id="review-grid">
+                    <div class="review-item">
+                        <a class="review-dp"><i class="fa-solid fa-user"></i></a>
+                        <div class="product__rating">
+                            <!-- 5 stars -->
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="review-name">John Doe</p>
+                        <p class="review-product">Air Jordan 1</p>
+                        <p class="review-text">This is a great product. I love it!</p>
+                    </div>
+                    <div class="review-item">
+                        <a class="review-dp"><i class="fa-solid fa-user"></i></a>
+                        <div class="product__rating">
+                            <!-- 4 stars -->
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <p class="review-name">Jane Doe</p>
+                        <p class="review-product">Air Jordan 1</p>
+                        <p class="review-text">This is a great product. I love it!</p>
+                    </div>
+                    <div class="review-item">
+                        <a class="review-dp"><i class="fa-solid fa-user"></i></a>
+                        <div class="product__rating">
+                            <!-- 4.5 stars -->
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <p class="review-name">John Doe</p>
+                        <p class="review-product">Air Jordan 1</p>
+                        <p class="review-text">This is a great product. I love it!</p>
+                    </div>
+                    <div class="review-item">
+                        <a class="review-dp"><i class="fa-solid fa-user"></i></a>
+                        <div class="product__rating">
+                            <!-- 4 stars -->
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <p class="review-name">Jane Doe</p>
+                        <p class="review-product">Air Jordan 1</p>
+                        <p class="review-text">This is a great product. I love it!</p>
+                    </div>
+                </div>
+            </section>
+    
+    
+            <br>
+            
+        </main>        
+        <br>
+        <hr />
+    
+        <footer class="section__container footer__container">
+            <div class="footer__col">
+                <h4 class="footer__heading">CONTACT INFO</h4>
+                <p>
+                    <i class="fa-solid fa-location-dot"></i> 123,White field, Bengalore
+                </p>
+                <p><i class="fa-solid fa-envelope"></i> support@shopers.com</p>
+                <p><i class="fa-solid fa-phone"></i> (+012) 3456 789</p>
+            </div>
+            <div class="footer__col">
+                <h4 class="footer__heading">COMPANY</h4>
+                <p>Home</p>
+                <p>About Us</p>
+                <p>Work With Us</p>
+                <p>Our Blog</p>
+                <p>Terms & Conditions</p>
+            </div>
+            <div class="footer__col">
+                <h4 class="footer__heading">USEFUL LINK</h4>
+                <p>Help</p>
+                <p>Track My Order</p>
+                <p>Men</p>
+                <p>Women</p>
+                <p>Shoes</p>
+            </div>
+            <div class="footer__col">
+                <h4 class="footer__heading">Social Media</h4>
+                <div class="social_media">
+                    <a href="#" class="footer__icon"><i class="fa-solid fa-envelope"></i></a>
+                    <a href="#" class="footer__icon"><i class='fa-brands fa-instagram'></i></a>
+                    <a href="#" class="footer__icon"><i class="fa-brands fa-twitter"></i></i></a>
+    
+                </div>
+            </div>
+        </footer>
+    
+        <hr />
+    
+        <div class="section__container footer__bar">
+            <div class="copyright">
+                Copyright © 2024 Shopers. All rights reserved.
+            </div>
+            <div class="footer__form">
+                <form>
+                    <input type="text" placeholder="ENTER YOUR EMAIL" />
+                    <button class="btn" type="submit">SUBSCRIBE</button>
+                </form>
+            </div>
+        </div>
+    
+    
+    
+        <script src="script.js"></script>
+    </body>
+    
+    </html>
