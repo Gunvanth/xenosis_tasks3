@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Real-Time Chat</title>
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+	</head>
+	<body>
+
+		<div id="background"></div>
+    <div id="login">
+        <div id="ball1" class="ball"></div>
+        <div id="ball2" class="ball"></div>
+        <div id="ball3" class="ball"></div>
+        <div id="ball4" class="ball"></div>
+        <div class="container">
+            <h1>Real-Time Chat</h1>
+            <h2>Login</h2>
+            <input type="text" name="username" id="username" placeholder="Enter your username">
+            <input type="text" name="room" id="room" placeholder="Enter room name">
+            <button id="login-btn">Join Chat</button>
+        </div>
+    </div>
+		<div id="chat" style="display: none;">
+			<div id="toggle-users">
+				<i class="fa fa-users"></i>
+			</div>
+			<div id="users">
+				<h3><i class="fa fa-users"></i> People Online</h3>
+				<!-- User list will be populated here -->
+			</div>
+			<div id="chat-area">
+				<h3><i class="fa fa-circle"></i> <span id="room-name">Room Name</span></h3>
+				<div id="messages">
+					<!-- Chat messages will be populated here -->
+				</div>
+				<div id="input-container">
+					<input type="text" id="message" placeholder="Type your message...">
+					<button id="send-btn"><i class="fa fa-paper-plane"></i></button>
+				</div>
+			</div>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>
