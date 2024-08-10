@@ -27,6 +27,12 @@ To get started with the Real-Time Chat application, follow these steps:
 
 - Node.js and npm installed on your machine.
 
+- pip install flask.
+
+- npm init -y
+
+- install "npm install express ws".
+
 ### Running the Application
 1.Start the server:
 
