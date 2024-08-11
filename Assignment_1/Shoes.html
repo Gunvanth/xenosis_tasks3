@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Product Page 4</title>
+      <link rel="stylesheet" href="styles.css">
+      <script src="https://kit.fontawesome.com/94eef430b8.js" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+   </head>
+   <body>
+      <header class="l-header">
+         <nav class="nav bd-grid">
+            <div class="logos">
+               <img src="Pics/logo.png" alt="Logo" class="nav__logo" style="max-height: 140px; max-width: 70px;">
+               <div>
+                  <a href="#" class="nav__logo">Shopers</a>
+               </div>
+            </div>
+            <div class="nav__bars">
+               <div class="nav__menu" id="nav-menu">
+                  <ul class="nav__list">
+                     <li class="nav__item"><a href="index.html" class="nav__link active-link"><i class="fa-solid fa-home"></i></a></li>
+                     <li class="nav__item"><a href="Men.html" class="nav__link">Men</a></li>
+                     <li class="nav__item"><a href="Women.html" class="nav__link">Women</a></li>
+                     <li class="nav__item"><a href="Shoes.html" class="nav__link">Shoes</a></li>
+                     <li class="nav__item"><a href="Watches.html" class="nav__link">Watches</a></li>
+                  </ul>
+               </div>
+               <div class="cart-icon">
+                  <i class="fas fa-shopping-cart"></i>
+                  <span id="cart-count">0</span>
+               </div>
+               <div class="nav__toggle" id="nav-toggle">
+                  <i class="fa-solid fa-bars"></i>
+               </div>
+            </div>
+         </nav>
+      </header>
+      <main class="main">
+         <div class="Boxer">
+         <br>
+         <h1 class="section__heading">Shoes</h1>
+         <div class="product-grid">
+            
+            <div class="product-card" data-id="1">
+               <img src="Pics/products/Shoe1.png" alt="Product 1">
+               <div class="product-info">
+                  <h2 class="product-name">Red Tape</h2>
+                  <p class="product-price">₹ 1700</p>
+                  <div class="product-details">
+                     <p class="product-description">Red Tape Casual Sneaker Shoes for Men.</p>
+                     <button class="button add-to-cart">
+                        <span>Add to cart</span>
+                        <div class="cart">
+                           <svg viewBox="0 0 36 26">
+                              <polyline points="1 2.5 6 2.5 10 18.5 25.5 18.5 28.5 7.5 7.5 7.5"></polyline>
+                              <polyline points="15 13.5 17 15.5 22 10.5"></polyline>
+                           </svg>
+                        </div>
+                     </button>
+                  </div>
+               </div>
+            </div>
+            <div class="product-card" data-id="2">
+               <img src="Pics/products/Shoe2.png" alt="Product 2">
+               <div class="product-info">
+                  <h2 class="product-name">Tape</h2>
+                  <p class="product-price">₹ 1500</p>
+                  <div class="product-details">
+                     <p class="product-description">Tape Casual Sneaker Shoes for Men.</p>
+                     <button class="button add-to-cart">
+                        <span>Add to cart</span>
+                        <div class="cart">
+                           <svg viewBox="0 0 36 26">
+                              <polyline points="1 2.5 6 2.5 10 18.5 25.5 18.5 28.5 7.5 7.5 7.5"></polyline>
+                              <polyline points="15 13.5 17 15.5 22 10.5"></polyline>
+                           </svg>
+                        </div>
+                     </button>
+                  </div>
+               </div>
+            </div>
+            <div class="product-card" data-id="3">
+               <img src="Pics/products/Shoe3.png" alt="Product 3">
+               <div class="product-info">
+                  <h2 class="product-name">Red</h2>
+                  <p class="product-price">₹ 700</p>
+                  <div class="product-details">
+                     <p class="product-description">Red Casual Sneaker Shoes for Men.</p>
+                     <button class="button add-to-cart">
+                        <span>Add to cart</span>
+                        <div class="cart">
+                           <svg viewBox="0 0 36 26">
+                              <polyline points="1 2.5 6 2.5 10 18.5 25.5 18.5 28.5 7.5 7.5 7.5"></polyline>
+                              <polyline points="15 13.5 17 15.5 22 10.5"></polyline>
+                           </svg>
+                        </div>
+                     </button>
+                  </div>
+               </div>
+            </div>
+            <div class="product-card" data-id="4">
+               <img src="Pics/products/Shoe4.png" alt="Product 4">
+               <div class="product-info">
+                  <h2 class="product-name">Blue Wave</h2>
+                  <p class="product-price">₹ 800</p>
+                  <div class="product-details">
+                     <p class="product-description">Blue Wave Sports Shoes for Women.</p>
+                     <button class="button add-to-cart">
+                        <span>Add to cart</span>
+                        <div class="cart">
+                           <svg viewBox="0 0 36 26">
+                              <polyline points="1 2.5 6 2.5 10 18.5 25.5 18.5 28.5 7.5 7.5 7.5"></polyline>
+                              <polyline points="15 13.5 17 15.5 22 10.5"></polyline>
+                           </svg>
+                        </div>
+                     </button>
+                  </div>
+               </div>
+            </div>
+            <div class="product-card" data-id="5">
+               <img src="Pics/products/Shoe5.png" alt="Product 5">
+               <div class="product-info">
+                  <h2 class="product-name">Green Sprint</h2>
+                  <p class="product-price">₹ 600</p>
+                  <div class="product-details">
+                     <p class="product-description">Green Sprint Running Shoes for Men.</p>
+                     <button class="button add-to-cart">
+                        <span>Add to cart</span>
+                        <div class="cart">
+                           <svg viewBox="0 0 36 26">
+                              <polyline points="1 2.5 6 2.5 10 18.5 25.5 18.5 28.5 7.5 7.5 7.5"></polyline>
+                              <polyline points="15 13.5 17 15.5 22 10.5"></polyline>
+                           </svg>
+                        </div>
+                     </button>
+                  </div>
+               </div>
+            </div>
+            <div class="product-card" data-id="6">
+               <img src="Pics/products/Shoe6.png" alt="Product 6">
+               <div class="product-info">
+                  <h2 class="product-name">Black Elite</h2>
+                  <p class="product-price">₹ 900</p>
+                  <div class="product-details">
+                     <p class="product-description">Black Elite Dress Shoes for Men.</p>
+                     <button class="button add-to-cart">
+                        <span>Add to cart</span>
+                        <div class="cart">
+                           <svg viewBox="0 0 36 26">
+                              <polyline points="1 2.5 6 2.5 10 18.5 25.5 18.5 28.5 7.5 7.5 7.5"></polyline>
+                              <polyline points="15 13.5 17 15.5 22 10.5"></polyline>
+                           </svg>
+                        </div>
+                     </button>
+                  </div>
+               </div>
+            </div>
+            <div class="product-card" data-id="7">
+               <img src="Pics/products/Shoe7.png" alt="Product 7">
+               <div class="product-info">
+                  <h2 class="product-name">White Classic</h2>
+                  <p class="product-price">₹ 750</p>
+                  <div class="product-details">
+                     <p class="product-description">White Classic Casual Shoes for Women.</p>
+                     <button class="button add-to-cart">
+                        <span>Add to cart</span>
+                        <div class="cart">
+                           <svg viewBox="0 0 36 26">
+                              <polyline points="1 2.5 6 2.5 10 18.5 25.5 18.5 28.5 7.5 7.5 7.5"></polyline>
+                              <polyline points="15 13.5 17 15.5 22 10.5"></polyline>
+                           </svg>
+                        </div>
+                     </button>
+                  </div>
+               </div>
+            </div>
+            <div class="product-card" data-id="8">
+               <img src="Pics/products/Shoe8.png" alt="Product 8">
+               <div class="product-info">
+                  <h2 class="product-name">Purple Groove</h2>
+                  <p class="product-price">₹ 850</p>
+                  <div class="product-details">
+                     <p class="product-description">Purple Groove Formal Shoes for Men.</p>
+                     <button class="button add-to-cart">
+                        <span>Add to cart</span>
+                        <div class="cart">
+                           <svg viewBox="0 0 36 26">
+                              <polyline points="1 2.5 6 2.5 10 18.5 25.5 18.5 28.5 7.5 7.5 7.5"></polyline>
+                              <polyline points="15 13.5 17 15.5 22 10.5"></polyline>
+                           </svg>
+                        </div>
+                     </button>
+                  </div>
+               </div>
+            </div>
+            <div class="product-card" data-id="9">
+               <img src="Pics/products/Shoe9.png" alt="Product 9">
+               <div class="product-info">
+                  <h2 class="product-name">Gray Trail</h2>
+                  <p class="product-price">₹ 650</p>
+                  <div class="product-details">
+                     <p class="product-description">Gray Trail Hiking Shoes for Men.</p>
+                     <button class="button add-to-cart">
+                        <span>Add to cart</span>
+                        <div class="cart">
+                           <svg viewBox="0 0 36 26">
+                              <polyline points="1 2.5 6 2.5 10 18.5 25.5 18.5 28.5 7.5 7.5 7.5"></polyline>
+                              <polyline points="15 13.5 17 15.5 22 10.5"></polyline>
+                           </svg>
+                        </div>
+                     </button>
+                  </div>
+               </div>
+            </div>
+            <div class="product-card" data-id="10">
+               <img src="Pics/products/Shoe10.png" alt="Product 10">
+               <div class="product-info">
+                  <h2 class="product-name">Orange Flash</h2>
+                  <p class="product-price">₹ 780</p>
+                  <div class="product-details">
+                     <p class="product-description">Orange Flash Running Shoes for Women.</p>
+                     <button class="button add-to-cart">
+                        <span>Add to cart</span>
+                        <div class="cart">
+                           <svg viewBox="0 0 36 26">
+                              <polyline points="1 2.5 6 2.5 10 18.5 25.5 18.5 28.5 7.5 7.5 7.5"></polyline>
+                              <polyline points="15 13.5 17 15.5 22 10.5"></polyline>
+                           </svg>
+                        </div>
+                     </button>
+                  </div>
+               </div>
+            </div>
+            <div class="product-card" data-id="11">
+               <img src="Pics/products/Shoe11.png" alt="Product 11">
+               <div class="product-info">
+                  <h2 class="product-name">Maroon Trend</h2>
+                  <p class="product-price">₹ 820</p>
+                  <div class="product-details">
+                     <p class="product-description">Maroon Trend Casual Shoes for Women.</p>
+                     <button class="button add-to-cart">
+                        <span>Add to cart</span>
+                        <div class="cart">
+                           <svg viewBox="0 0 36 26">
+                              <polyline points="1 2.5 6 2.5 10 18.5 25.5 18.5 28.5 7.5 7.5 7.5"></polyline>
+                              <polyline points="15 13.5 17 15.5 22 10.5"></polyline>
+                           </svg>
+                        </div>
+                     </button>
+                  </div>
+               </div>
+            </div>
+            <div class="product-card" data-id="12">
+               <img src="Pics/products/Shoe12.png" alt="Product 12">
+               <div class="product-info">
+                  <h2 class="product-name">Teal Breeze</h2>
+                  <p class="product-price">₹ 700</p>
+                  <div class="product-details">
+                     <p class="product-description">Teal Breeze Casual Shoes for Men.</p>
+                     <button class="button add-to-cart">
+                        <span>Add to cart</span>
+                        <div class="cart">
+                           <svg viewBox="0 0 36 26">
+                              <polyline points="1 2.5 6 2.5 10 18.5 25.5 18.5 28.5 7.5 7.5 7.5"></polyline>
+                              <polyline points="15 13.5 17 15.5 22 10.5"></polyline>
+                           </svg>
+                        </div>
+                     </button>
+                  </div>
+               </div>
+            </div>
+            <div class="product-card" data-id="13">
+               <img src="Pics/products/Shoe13.png" alt="Product 13">
+               <div class="product-info">
+                  <h2 class="product-name">Cyan Glide</h2>
+                  <p class="product-price">₹ 850</p>
+                  <div class="product-details">
+                     <p class="product-description">Cyan Glide Running Shoes for Women.</p>
+                     <button class="button add-to-cart">
+                        <span>Add to cart</span>
+                        <div class="cart">
+                           <svg viewBox="0 0 36 26">
+                              <polyline points="1 2.5 6 2.5 10 18.5 25.5 18.5 28.5 7.5 7.5 7.5"></polyline>
+                              <polyline points="15 13.5 17 15.5 22 10.5"></polyline>
+                           </svg>
+                        </div>
+                     </button>
+                  </div>
+               </div>
+            </div>
+            <div class="product-card" data-id="14">
+               <img src="Pics/products/Shoe14.png" alt="Product 14">
+               <div class="product-info">
+                  <h2 class="product-name">Beige Charm</h2>
+                  <p class="product-price">₹ 790</p>
+                  <div class="product-details">
+                     <p class="product-description">Beige Charm Casual Shoes for Men.</p>
+                     <button class="button add-to-cart">
+                        <span>Add to cart</span>
+                        <div class="cart">
+                           <svg viewBox="0 0 36 26">
+                              <polyline points="1 2.5 6 2.5 10 18.5 25.5 18.5 28.5 7.5 7.5 7.5"></polyline>
+                              <polyline points="15 13.5 17 15.5 22 10.5"></polyline>
+                           </svg>
+                        </div>
+                     </button>
+                  </div>
+               </div>
+            </div>
+            <div class="product-card" data-id="15">
+               <img src="Pics/products/Shoe15.png" alt="Product 15">
+               <div class="product-info">
+                  <h2 class="product-name">Mint Leaf</h2>
+                  <p class="product-price">₹ 730</p>
+                  <div class="product-details">
+                     <p class="product-description">Mint Leaf Sneakers for Women.</p>
+                     <button class="button add-to-cart">
+                        <span>Add to cart</span>
+                        <div class="cart">
+                           <svg viewBox="0 0 36 26">
+                              <polyline points="1 2.5 6 2.5 10 18.5 25.5 18.5 28.5 7.5 7.5 7.5"></polyline>
+                              <polyline points="15 13.5 17 15.5 22 10.5"></polyline>
+                           </svg>
+                        </div>
+                     </button>
+                  </div>
+               </div>
+            </div>
+            <div class="product-card" data-id="16">
+               <img src="Pics/products/Shoe16.png" alt="Product 16">
+               <div class="product-info">
+                  <h2 class="product-name">Orange Spark</h2>
+                  <p class="product-price">₹ 760</p>
+                  <div class="product-details">
+                     <p class="product-description">Orange Spark Sports Shoes for Men.</p>
+                     <button class="button add-to-cart">
+                        <span>Add to cart</span>
+                        <div class="cart">
+                           <svg viewBox="0 0 36 26">
+                              <polyline points="1 2.5 6 2.5 10 18.5 25.5 18.5 28.5 7.5 7.5 7.5"></polyline>
+                              <polyline points="15 13.5 17 15.5 22 10.5"></polyline>
+                           </svg>
+                        </div>
+                     </button>
+                  </div>
+               </div>
+            </div>
+            <div class="product-card" data-id="17">
+               <img src="Pics/products/Shoe17.png" alt="Product 17">
+               <div class="product-info">
+                  <h2 class="product-name">Violet Dream</h2>
+                  <p class="product-price">₹ 820</p>
+                  <div class="product-details">
+                     <p class="product-description">Violet Dream Casual Shoes for Women.</p>
+                     <button class="button add-to-cart">
+                        <span>Add to cart</span>
+                        <div class="cart">
+                           <svg viewBox="0 0 36 26">
+                              <polyline points="1 2.5 6 2.5 10 18.5 25.5 18.5 28.5 7.5 7.5 7.5"></polyline>
+                              <polyline points="15 13.5 17 15.5 22 10.5"></polyline>
+                           </svg>
+                        </div>
+                     </button>
+                  </div>
+               </div>
+            </div>
+            <div class="product-card" data-id="18">
+               <img src="Pics/products/Shoe18.png" alt="Product 18">
+               <div class="product-info">
+                  <h2 class="product-name">Gold Shine</h2>
+                  <p class="product-price">₹ 890</p>
+                  <div class="product-details">
+                     <p class="product-description">Gold Shine Formal Shoes for Men.</p>
+                     <button class="button add-to-cart">
+                        <span>Add to cart</span>
+                        <div class="cart">
+                           <svg viewBox="0 0 36 26">
+                              <polyline points="1 2.5 6 2.5 10 18.5 25.5 18.5 28.5 7.5 7.5 7.5"></polyline>
+                              <polyline points="15 13.5 17 15.5 22 10.5"></polyline>
+                           </svg>
+                        </div>
+                     </button>
+                  </div>
+               </div>
+            </div>
+            <div class="product-card" data-id="19">
+               <img src="Pics/products/Shoe19.png" alt="Product 19">
+               <div class="product-info">
+                  <h2 class="product-name">Silver Shine</h2>
+                  <p class="product-price">₹ 850</p>
+                  <div class="product-details">
+                     <p class="product-description">Silver Shine Casual Shoes for Women.</p>
+                     <button class="button add-to-cart">
+                        <span>Add to cart</span>
+                        <div class="cart">
+                           <svg viewBox="0 0 36 26">
+                              <polyline points="1 2.5 6 2.5 10 18.5 25.5 18.5 28.5 7.5 7.5 7.5"></polyline>
+                              <polyline points="15 13.5 17 15.5 22 10.5"></polyline>
+                           </svg>
+                        </div>
+                     </button>
+                  </div>
+               </div>
+            </div>
+            <div class="product-card" data-id="20">
+               <img src="Pics/products/Shoe20.png" alt="Product 20">
+               <div class="product-info">
+                  <h2 class="product-name">Pink Glow</h2>
+                  <p class="product-price">₹ 780</p>
+                  <div class="product-details">
+                     <p class="product-description">Pink Glow Sneakers for Women.</p>
+                     <button class="button add-to-cart">
+                        <span>Add to cart</span>
+                        <div class="cart">
+                           <svg viewBox="0 0 36 26">
+                              <polyline points="1 2.5 6 2.5 10 18.5 25.5 18.5 28.5 7.5 7.5 7.5"></polyline>
+                              <polyline points="15 13.5 17 15.5 22 10.5"></polyline>
+                           </svg>
+                        </div>
+                     </button>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div id="cart-modal" class="cart-modal">
+            <div class="cart-content">
+               <h2>Cart</h2>
+               <ul id="cart-items"></ul>
+               <div class="cart-total">
+                  <p>Total: ₹<span id="cart-total-value">0.00</span></p>
+                  <button id="checkout">Checkout</button>
+               </div>
+               <button id="close-cart">Close</button>
+            </div>
+         </div>
+         <section id="reviews-section" class="product-reviews">
+            <h1 class="section__heading">Customer Reviews</h1>
+            <div class="review-grid" id="review-grid">
+               <div class="review-item">
+                  <a class="review-dp"><i class="fa-solid fa-user"></i></a>
+                  <div class="product__rating">
+                     
+                     <i class="fa-solid fa-star"></i>
+                     <i class="fa-solid fa-star"></i>
+                     <i class="fa-solid fa-star"></i>
+                     <i class="fa-solid fa-star"></i>
+                     <i class="fa-solid fa-star"></i>
+                  </div>
+                  <p class="review-name">John Doe</p>
+                  <p class="review-product">Air Jordan 1</p>
+                  <p class="review-text">This is a great product. I love it!</p>
+               </div>
+               <div class="review-item">
+                  <a class="review-dp"><i class="fa-solid fa-user"></i></a>
+                  <div class="product__rating">
+                     
+                     <i class="fa-solid fa-star"></i>
+                     <i class="fa-solid fa-star"></i>
+                     <i class="fa-solid fa-star"></i>
+                     <i class="fa-solid fa-star"></i>
+                     <i class="fa-regular fa-star"></i>
+                  </div>
+                  <p class="review-name">Jane Doe</p>
+                  <p class="review-product">Air Jordan 1</p>
+                  <p class="review-text">This is a great product. I love it!</p>
+               </div>
+               <div class="review-item">
+                  <a class="review-dp"><i class="fa-solid fa-user"></i></a>
+                  <div class="product__rating">
+                     
+                     <i class="fa-solid fa-star"></i>
+                     <i class="fa-solid fa-star"></i>
+                     <i class="fa-solid fa-star"></i>
+                     <i class="fa-solid fa-star"></i>
+                     <i class="fa-solid fa-star-half-stroke"></i>
+                  </div>
+                  <p class="review-name">John Doe</p>
+                  <p class="review-product">Air Jordan 1</p>
+                  <p class="review-text">This is a great product. I love it!</p>
+               </div>
+               <div class="review-item">
+                  <a class="review-dp"><i class="fa-solid fa-user"></i></a>
+                  <div class="product__rating">
+                     
+                     <i class="fa-solid fa-star"></i>
+                     <i class="fa-solid fa-star"></i>
+                     <i class="fa-solid fa-star"></i>
+                     <i class="fa-solid fa-star"></i>
+                     <i class="fa-regular fa-star"></i>
+                  </div>
+                  <p class="review-name">Jane Doe</p>
+                  <p class="review-product">Air Jordan 1</p>
+                  <p class="review-text">This is a great product. I love it!</p>
+               </div>
+            </div>
+         </section>
+         <br>
+      </main>
+      <br>
+      <hr />
+      <footer class="section__container footer__container">
+         <div class="footer__col">
+            <h4 class="footer__heading">CONTACT INFO</h4>
+            <p>
+               <i class="fa-solid fa-location-dot"></i> 123,White field, Bengalore
+            </p>
+            <p><i class="fa-solid fa-envelope"></i> support@shopers.com</p>
+            <p><i class="fa-solid fa-phone"></i> (+012) 3456 789</p>
+         </div>
+         <div class="footer__col">
+            <h4 class="footer__heading">COMPANY</h4>
+            <p>Home</p>
+            <p>About Us</p>
+            <p>Work With Us</p>
+            <p>Our Blog</p>
+            <p>Terms & Conditions</p>
+         </div>
+         <div class="footer__col">
+            <h4 class="footer__heading">USEFUL LINK</h4>
+            <p>Help</p>
+            <p>Track My Order</p>
+            <p>Men</p>
+            <p>Women</p>
+            <p>Shoes</p>
+         </div>
+         <div class="footer__col">
+            <h4 class="footer__heading">Social Media</h4>
+            <div class="social_media">
+               <a href="#" class="footer__icon"><i class="fa-solid fa-envelope"></i></a>
+               <a href="#" class="footer__icon"><i class='fa-brands fa-instagram'></i></a>
+               <a href="#" class="footer__icon"><i class="fa-brands fa-twitter"></i></i></a>
+            </div>
+         </div>
+      </footer>
+      <hr />
+      <div class="section__container footer__bar">
+         <div class="copyright">
+            Copyright © 2024 Shopers. All rights reserved.
+         </div>
+         <div class="footer__form">
+            <form>
+               <input type="text" placeholder="ENTER YOUR EMAIL" />
+               <button class="btn" type="submit">SUBSCRIBE</button>
+            </form>
+         </div>
+      </div>
+      <script src="script.js"></script>
+   </body>
+</html>
